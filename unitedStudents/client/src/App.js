@@ -15,6 +15,7 @@ import Profile from "./components/profile/Profile";
 import Posts from "./components/posts/Posts";
 import Post from "./components/post/Post";
 import PrivateRoute from "./components/routing/PrivateRoute";
+import Footer from "./components/footer/Footer";
 
 import { loadUser } from "./actions/auth";
 import setAuthToken from "./utils/setAuthToken";
@@ -72,6 +73,7 @@ const App = () => {
               <PrivateRoute exact path="/posts/:id" component={Post} />
             </Switch>
           </section>
+          <Footer />
         </Fragment>
       </Router>
     </Provider>

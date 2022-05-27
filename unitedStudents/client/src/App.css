@@ -40,7 +40,7 @@ ul {
   margin: auto;
   overflow: hidden;
   padding: 0 2rem;
-   margin-top: 6rem;
+   /* margin-top: 6rem; */
   /*margin-bottom: 3rem; */
 }
 
@@ -355,7 +355,7 @@ button {
   justify-content: space-between;
   align-items: center;
   padding: 0.7rem 2rem;
-  position: fixed;
+  /* position: fixed; */
   z-index: 1;
   width: 100%;
   top: 0;
@@ -542,7 +542,7 @@ button {
 /* Mobile Styles */
 @media (max-width: 700px) {
   .container {
-    margin-top: 8rem;
+    /* margin-top: 8rem; */
   }
 
   .hide-sm {
@@ -625,126 +625,4 @@ button {
   .post button {
     padding: 0.3rem 0.4rem;
   }
-}
-
-/*Footer*/
-.footer {
-  padding: 2rem 0;
-}
-
-.landing-h1 {
-  background-image: linear-gradient(to right, #a3ccf1, #08c5f5);
-  -webkit-background-clip: text;
-  color: transparent;
-}
-
-.footer__logo-box {
-  text-align: center;
-  margin-bottom: 4rem;
-}
-
-.myLogo {
-  color: #fff;
-  font-size: 8rem;
-}
-
-.footer__logo {
-  width: 12rem;
-  height: auto;
-}
-
-.footer__navigation {
-  border-top: 1px solid #333;
-  padding-top: 1.2rem;
-  display: inline-block;
-}
-
-.footer__list {
-  list-style: none;
-}
-
-.footer__item {
-  display: inline-block;
-}
-
-.footer__item:not(:last-child) {
-  margin-right: 0.9rem;
-}
-
-.footer__copyright {
-  border-top: 1px solid #333;
-  padding-top: 1.2rem;
-  float: right;
-  width: 80%;
-  color: #333;
-}
-
-@media (max-width: 56.25rem) {
-  .footer__copyright {
-    width: 100%;
-    text-align: center;
-  }
-  .footer__navigation {
-    width: 100%;
-    text-align: center;
-  }
-}
-
-.row {
-  max-width: 100rem;
-  margin: 0 auto;
-}
-.row:not(:last-child) {
-  margin-bottom: 5rem;
-}
-@media (max-width: 56.25em) {
-  .row:not(:last-child) {
-    margin-bottom: 3.2rem;
-  }
-}
-@media (max-width: 56.25em) {
-  .row {
-    max-width: 35rem;
-    padding: 0 1.8rem;
-  }
-}
-.row::after {
-  content: "";
-  display: table;
-  clear: both;
-}
-.row [class^="col-"] {
-  float: left;
-}
-.row [class^="col-"]:not(:last-child) {
-  margin-right: 3.75rem;
-}
-@media (max-width: 56.25em) {
-  .row [class^="col-"]:not(:last-child) {
-    margin-right: 0;
-    margin-bottom: 3.2rem;
-  }
-}
-@media (max-width: 56.25em) {
-  .row [class^="col-"] {
-    width: 100% !important;
-  }
-}
-.row .col-1-of-2 {
-  width: calc((100% - 3.75rem) / 2);
-}
-.row .col-1-of-3 {
-  width: calc((100% - 2 * 3.75rem) / 3);
-}
-.row .col-2-of-3 {
-  width: calc(2 * ((100% - 2 * 3.75rem) / 3) + 3.75rem);
-}
-.row .col-1-of-4 {
-  width: calc((100% - 3 * 3.75rem) / 4);
-}
-.row .col-2-of-4 {
-  width: calc(2 * ((100% - 3 * 3.75rem) / 4) + 3.75rem);
-}
-.row .col-3-of-4 {
-  width: calc(3 * ((100% - 3 * 3.75rem) / 4) + 2 * 3.75rem);
 }
